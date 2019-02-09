@@ -2,5 +2,7 @@ GStreamer sink for playing video on SSD1331 PMOD display connected to ICEStick.
 
 Build
 
+Flash FPGA with code from https://github.com/reostat/usb_displ.git
+
 From root directory, run ./autogen.sh
 CD into plugins, run ./inspect.sh to compile and inspect the sink. Run ./launch to play video (edit file to point to your video).
