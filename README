@@ -1,1 +1,6 @@
-README for your project.
+GStreamer sink for playing video on SSD1331 PMOD display connected to ICEStick.
+
+Build
+
+From root directory, run ./autogen.sh
+CD into plugins, run ./inspect.sh to compile and inspect the sink. Run ./launch to play video (edit file to point to your video).
